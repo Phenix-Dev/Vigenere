@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vigenere"
         mc:Ignorable="d"
-        Title="Vigenere System" Height="450" Width="800">
-    <StackPanel>
-        
+        Title="Vigenere System" Height="600" Width="800">
+    <StackPanel Orientation="Horizontal">
+        <TextBox TextWrapping="Wrap" Text="Your Text" Width="350" Margin="10,70,0,10"/>
+
     </StackPanel>
 </Window>
