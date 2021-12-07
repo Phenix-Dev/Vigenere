@@ -8,7 +8,10 @@
         Title="Vigenere System" Height="600" Width="800">
     <StackPanel Orientation="Horizontal">
         <TextBox TextWrapping="Wrap" Text="Your Text" Width="350" Margin="10,70,0,10"/>
-        <Border BorderThickness="1" BorderBrush="Black" Margin="80,70,0,10" Width="350">
+        <StackPanel Margin="0,70,0,10" Width="80" Height="500" VerticalAlignment="Stretch" HorizontalAlignment="Center">
+            <Button Content="Encrypt" Height="30" Width="60" Margin="0,200,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </StackPanel>
+        <Border BorderThickness="1" BorderBrush="Black" Margin="0,70,0,10" Width="350">
             <TextBlock TextWrapping="Wrap" Text="Result" Width="350"/>
         </Border>
     </StackPanel>
