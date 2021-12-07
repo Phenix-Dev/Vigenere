@@ -8,6 +8,8 @@
         Title="Vigenere System" Height="600" Width="800">
     <StackPanel Orientation="Horizontal">
         <TextBox TextWrapping="Wrap" Text="Your Text" Width="350" Margin="10,70,0,10"/>
-
+        <Border BorderThickness="1" BorderBrush="Black" Margin="80,70,0,10" Width="350">
+            <TextBlock TextWrapping="Wrap" Text="Result" Width="350"/>
+        </Border>
     </StackPanel>
 </Window>
